@@ -7,7 +7,7 @@
 class Parser
 {
 private:
-    const std::string c[10] = {"FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH"};
+    static const std::string c[10];
     std::vector<std::string> args;
     std::map<std::string, std::string> arg_detail;
     std::map<std::string, int> arg_value;
@@ -107,5 +107,5 @@ public:
     }
 
 };
-
+const std::string Parser::c[10] = {"FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH"};
 #endif
