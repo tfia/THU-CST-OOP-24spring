@@ -48,8 +48,6 @@ int Monomial::get_val(int x)
 
 int Monomial::definite_integral(const int a, const int b)
 {
-    // Monomial tmp = Monomial(coe / (deg + 1), deg + 1);
-    // return tmp.get_val(b) - tmp.get_val(a);
     double x = pow(b, deg + 1), y = pow(a, deg + 1);
     double z = coe / (deg + 1);
     return z * (x - y);
