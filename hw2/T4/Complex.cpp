@@ -17,11 +17,6 @@ Complex operator+(Complex c1, Complex c2)
     return Complex(c1.Re + c2.Re, c1.Im + c2.Im);
 }
 
-// Complex operator+(double d, Complex c)
-// {
-//     return Complex(c.Re + d, c.Im);
-// }
-
 Complex operator-(Complex c1, Complex c2)
 {
     return Complex(c1.Re - c2.Re, c1.Im - c2.Im);

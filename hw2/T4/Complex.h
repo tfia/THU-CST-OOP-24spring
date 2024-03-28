@@ -22,7 +22,6 @@ Complex operator+(Complex c1, Complex c2);
 Complex operator-(Complex c1, Complex c2);
 Complex operator*(Complex c1, Complex c2);
 Complex operator/(Complex c1, Complex c2);
-// Complex operator+(double d, Complex c);
 
 double abs(Complex & c);
 
