@@ -1,0 +1,16 @@
+Test 0 created
+PyObject got a value
+Borrowing
+Test 1 created by reference
+1
+Test 1 destroyed
+Test 1 created by reference
+1
+Test 1 destroyed
+Test 1 created by reference
+1
+Test 1 destroyed
+PyObject got a value
+e
+e
+Test 7 destroyed

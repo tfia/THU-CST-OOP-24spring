@@ -1,0 +1,12 @@
+PyObject got a value
+a
+Test 0 created
+PyObject got a value
+Borrowing
+Test 1 created by reference
+Test 2 created by reference
+2
+Test 2 destroyed
+1
+Test 1 destroyed
+Test 99 destroyed

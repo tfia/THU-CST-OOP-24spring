@@ -1,0 +1,35 @@
+Test 0 created
+PyObject got a value
+Test 0 moved by rvalue reference
+Owning
+Test 0 calling func with 6
+data size: 1
+Test 1 created by reference
+Test 0 calling func with 10
+data size: 2
+Test 0 calling func with 109
+data size: 3
+Test 1 calling func with 101
+data size: 2
+PyObject got a value
+Test 0 destroyed
+1
+o
+PyObject got a value
+Borrowing
+PyObject got a value
+Borrowing
+Test 1 calling func with 9
+data size: 3
+Test 1 calling func with 99
+data size: 4
+PyObject got a value
+Test 1 calling func with 999
+data size: 5
+PyObject got a value
+PyObject got a value
+Test 1 calling func with 919
+data size: 6
+PyObject got a value
+1
+Test 1 destroyed
