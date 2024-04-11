@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Node.h"
+#include <cassert>
 
 using namespace std;
 
@@ -9,8 +10,8 @@ private:
     Node * ptr;
     int len;
 public:
-    Array(int len) : len(len) {ptr = new Node[len];}
-    Array(Array & a) : len(a.len)
+    Array(int len) : len(len) { ptr = new Node[len]; }
+    Array(const Array & a) : len(a.len)
     {
         ptr = new Node[len];
         for(int i = 0; i < len; i++) ptr[i] = a.ptr[i];
@@ -21,15 +22,18 @@ public:
         a.ptr = nullptr;
         a.len = 0;
     }
-    Array & operator=(Array & a)
+    Array & operator=(const Array & a)
     {
+        // assert(len == a.len);
         len = a.len;
-        // ptr = new Node[len];
+        delete [] ptr;
+        ptr = new Node[len];
         for(int i = 0; i < len; i++) ptr[i] = a.ptr[i];
         return *this;
     }
     Array & operator=(Array && a)
     {
+        delete [] ptr;
         len = a.len;
         ptr = a.ptr;
         a.ptr = nullptr;
@@ -46,11 +50,5 @@ public:
         for(int i = 0; i < l; i++) cout << a[i] << " ";
         cout << endl;
     }
-    ~Array()
-    {
-        // cout << "--- " << endl;
-        // if(ptr != nullptr) for(int i = 0; i < len; i++) cout << ptr[i] << " ";
-        // cout << endl;
-        delete [] ptr;
-    }
+    ~Array() { delete [] ptr;}
 };
