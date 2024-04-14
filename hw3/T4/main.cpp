@@ -3,6 +3,7 @@
 #include "PyObject.h"
 #include "test.h"
 
+
 int main() {
 #ifdef subtask1
     PyObject p;

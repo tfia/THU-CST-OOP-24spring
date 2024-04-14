@@ -36,6 +36,7 @@ public:
         I = P.I;
         D = P.D;
         Tp = P.Tp;
+        cout << "Borrowing" << endl;
         if(P.is_owned) P.Tp = nullptr;
     }
     PyObject(PyObject * P)
@@ -45,6 +46,7 @@ public:
         I = P->I;
         D = P->D;
         Tp = P->Tp;
+        cout << "Borrowing" << endl;
     }
     PyObject & operator=(char C)
     {
@@ -102,6 +104,7 @@ public:
         I = P.I;
         D = P.D;
         Tp = P.Tp;
+        cout << "Borrowing" << endl;
         if(P.is_owned) P.Tp = nullptr;
         return *this;
     }

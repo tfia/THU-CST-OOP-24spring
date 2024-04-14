@@ -41,14 +41,5 @@ public:
         return *this;
     }
     Node & operator[] (int i) {return ptr[i];}
-    void readArray(Array & a, int l)
-    {
-        for(int i = 0; i < l; i++) cin >> a[i];
-    }
-    void outputArray(Array & a, int l)
-    {
-        for(int i = 0; i < l; i++) cout << a[i] << " ";
-        cout << endl;
-    }
     ~Array() { delete [] ptr;}
 };
