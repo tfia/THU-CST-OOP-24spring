@@ -1,5 +1,5 @@
 BD
-B
+AB
 C
 BCD
 BC
