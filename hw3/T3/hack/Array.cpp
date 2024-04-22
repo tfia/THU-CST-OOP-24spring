@@ -1,1 +1,0 @@
-static int X = 1;
