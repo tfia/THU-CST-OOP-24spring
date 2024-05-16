@@ -1,0 +1,8 @@
+C
+A
+BC
+B
+DE
+ABCD
+BC
+D
