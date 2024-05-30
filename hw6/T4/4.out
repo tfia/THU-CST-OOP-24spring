@@ -1,0 +1,189 @@
+start initialization.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+initialization completed.
+start link table connection.
+my_sptr updated.
+my_sptr updated.
+my_wptr updated.
+my_sptr updated.
+my_wptr updated.
+my_sptr updated.
+my_wptr updated.
+my_sptr updated.
+my_wptr updated.
+my_sptr updated.
+my_wptr updated.
+my_sptr updated.
+my_wptr updated.
+my_sptr updated.
+my_wptr updated.
+my_sptr updated.
+my_wptr updated.
+my_wptr updated.
+link table connection completed.
+start calculation of sum.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr constructed.
+my_sptr updated.
+my_sptr destructed.
+my_sptr destructed.
+45
+my_sptr constructed.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr updated.
+my_sptr destructed.
+55
+calculation of sum comleted.
+my_sptr constructed.
+my_wptr constructed.
+my_sptr constructed.
+start to print use_count of every node.
+0 1 2
+1 2 3
+2 3 2
+3 2 3
+2 3 2
+3 2 2
+2 2 2
+2 2 2
+2 2 2
+2 2 0
+print use_count of every node completed.
+my_sptr destructed.
+my_wptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+Accepted!

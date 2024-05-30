@@ -1,0 +1,29 @@
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_wptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_wptr updated.
+my_sptr updated.
+my_sptr constructed.
+100
+my_sptr destructed.
+my_sptr constructed.
+the converted sptr is null.
+my_sptr destructed.
+my_sptr constructed.
+x of node1: 100
+my_sptr updated.
+x of node2: 2
+my_sptr updated.
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+my_wptr destructed.
+my_wptr destructed.
+Accepted!

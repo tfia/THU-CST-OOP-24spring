@@ -1,0 +1,12 @@
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+my_sptr constructed.
+1333
+my_sptr destructed.
+my_sptr destructed.
+my_sptr destructed.
+data released.
+my_sptr destructed.
+data released.
+Accepted!
