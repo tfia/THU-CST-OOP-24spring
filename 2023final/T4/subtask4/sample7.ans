@@ -1,0 +1,20 @@
+[ Test 4.1 ]
+Hello world!
+d1.size = 3
+d1.hitStats : (level-1) hit = 3, miss = 5; (level-2) hit = 2, miss = 6
+
+[ Test 4.2 ]
+d1.size = 0
+d1.hitStats : (level-1) hit = 0, miss = 0; (level-2) hit = 0, miss = 0
+
+[ Test 4.3 ]
+cnt.size = 25
+cnt.hitStats : (level-1) hit = 173, miss = 62; (level-2) hit = 32, miss = 84; (level-3) hit = 5, miss = 89
+cnt[2] = 95
+cnt[3] = 48
+cnt[5] = 22
+cnt[7] = 16
+cnt[11] = 9
+cnt[13] = 7
+cnt[17] = 5
+cnt[19] = 5

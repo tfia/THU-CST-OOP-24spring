@@ -1,0 +1,29 @@
+[ Test 3.1 ]
+world
+d1.size = 2
+d1.hitStats : (level-1) hit = 3, miss = 5
+
+[ Test 3.2 ]
+H!
+d2.size = 2
+d2.hitStats : (level-1) hit = 3, miss = 4
+
+[ Test 3.3 ]
+d1.size = 0
+d1.hitStats : (level-1) hit = 0, miss = 0
+d2.size = 0
+d2.hitStats : (level-1) hit = 0, miss = 0
+
+[ Test 3.4 ]
+cntFIFO.size = 8
+cntFIFO.hitStats : (level-1) hit = 148, miss = 87
+cntLRU.size = 8
+cntLRU.hitStats : (level-1) hit = 173, miss = 62
+cntFIFO[2] = 6, cntLRU[2] = 95
+cntFIFO[3] = 4, cntLRU[3] = 48
+cntFIFO[5] = 0, cntLRU[5] = 22
+cntFIFO[7] = 2, cntLRU[7] = 2
+cntFIFO[11] = 1, cntLRU[11] = 1
+cntFIFO[13] = 0, cntLRU[13] = 0
+cntFIFO[17] = 0, cntLRU[17] = 0
+cntFIFO[19] = 1, cntLRU[19] = 0

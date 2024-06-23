@@ -1,0 +1,13 @@
+dictFIFO[1] := 10; dictLRU[1] := 10
+dictFIFO[2] := 20; dictLRU[2] := 20
+dictFIFO[3] := 30; dictLRU[3] := 30
+dictFIFO[2] = 20; dictLRU[2] = 20
+dictFIFO[2] := 21; dictLRU[2] := 21
+dictFIFO[1] = 0; dictLRU[1] = 0
+dictFIFO[2] = 0; dictLRU[2] = 21
+dictFIFO.size = 2; dictLRU.size = 2
+dictFIFO.hitStats = (level-1) hit = 2, miss = 5; dictLRU.hitStats = (level-1) hit = 3, miss = 4
+dictFIFO & dictLRU cleared.
+dictFIFO[3] = 0; dictLRU[3] = 0
+dictFIFO.size = 1; dictLRU.size = 1
+dictFIFO.hitStats = (level-1) hit = 0, miss = 1; dictLRU.hitStats = (level-1) hit = 0, miss = 1

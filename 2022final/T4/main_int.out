@@ -1,0 +1,25 @@
+Subtask 1
+[]
+[1]
+[2]
+[1, 3]
+3
+[1, 3, 5]
+Subtask 2
+[1, 3]
+[1]
+[]
+cannot undo
+[1, 0]
+Subtask 3
+[2, 3, 5]
+[2]
+[2, 3, 5]
+[1, 3, 5]
+[2, 3, 5]
+[2, 3, 5]
+[2, 3, 5]
+cannot update: no origin found
+cannot update: conflicts found
+cannot update: conflicts found
+cannot update: conflicts found

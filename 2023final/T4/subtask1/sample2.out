@@ -1,0 +1,13 @@
+dict[1] := 10
+dict[2] := 20
+dict[3] := 30
+dict[2] = 20
+dict[2] := 21
+dict[1] = 10
+dict[2] = 21
+dict.size = 3
+dict.hitStats = (level-1) hit = 4, miss = 3
+dict cleared.
+dict[3] = 0
+dict.size = 1
+dict.hitStats = (level-1) hit = 0, miss = 1
