@@ -1,4 +1,4 @@
-# THU-CS-OOP-24spring
+# THU-CST-OOP-24spring
 
 2024 春季学期清华大学计算机系《面向对象程序设计基础》课程作业文件。
 
